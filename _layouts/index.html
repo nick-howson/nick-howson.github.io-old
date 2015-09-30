@@ -9,27 +9,13 @@
 
   {% include header.html %}
 
-  {% for page in site.pages %}
+  {% include profile.html %}
 
-    {% if page.section-type == "profile" %}
+  {% include latest-post.html %}
 
-      {% include profile.html %}
+  {% include career.html %}
 
-    {% elsif page.section-type == "latest-post" %}
-
-      {% include latest-post.html %}
-
-    {% elsif page.section-type == "career" %}
-
-      {% include career.html %}
-
-    {% elsif page.section-type == "contact" %}
-
-      {% include contact.html %}
-
-    {% endif %}
-
-  {% endfor %}
+  {% include contact.html %}
 
   {% include footer.html %}
 
