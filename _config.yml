@@ -16,7 +16,7 @@ disqus-shortname: "<YOUR DISQUS USERNAME>"
 # In the default page it will point to the preview of the last post
 
 pages_list:
-  About: 'about'
+  Profile: 'profile'
   Blog: 'blog'
   Career: 'career'
   Contact: 'contact'
@@ -46,12 +46,24 @@ reddit-share: True
 # Career variables
 
 events:
-  - image: "img/career/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "img/career/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "img/career/wsu_logo.png"
+    date: "Feburary 2015 - Today"
+    description: "Bachelor of Nursing @ Western Sydney University"
+  - image: "img/career/bmgs_logo.jpg"
+    date: "December 2013 - December 2014"
+    description: "IT Consultant & Network Engineer @ [Blue Mountains Grammar School](http://www.bmgs.nsw.edu.au/)"
+  - image: "img/career/wsitafe_logo.gif"
+    date: "July 2013 - June 2014"
+    description: "Certificate IV in Small Business Management @ TAFE"
+  - image: "img/career/nsw_dec_logo.png"
+    date: "August 2006 - August 2013"
+    description: "Network & System Administrator @ [NSW Department of Education & Communities](http://www.dec.nsw.gov.au/)"
+  - image: "img/career/wsitafe_logo.gif"
+    date: "Feburary 2006 - December 2006"
+    description: "Cisco Certified Network Associate (CCNA) @ TAFE"
+  - image: "img/career/wsitafe_logo.gif"
+    date: "Feburary 2002 - December 2004"
+    description: "Diploma of Information Technology (Network Engineering) @ TAFE"
 
 # First image of the Career timeline
 career-img: "img/career/default.png"
@@ -60,12 +72,10 @@ career-img: "img/career/default.png"
 # Add a url pointing to your profile for earch social network.
 
 social:
-  - title: "github"
-    url: "https://github.com/"
   - title: "linkedin"
-    url: "http://no.linkedin.com/"
-  - title: "youtube"
-    url: "http://youtube.com/"
+    url: "https://au.linkedin.com/in/nhowson"
+  - title: "facebook"
+    url: "https://www.facebook.com/nick.howson"
   - title: "rss"
     url: "/feed.xml"
 
