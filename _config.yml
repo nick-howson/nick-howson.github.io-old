@@ -82,4 +82,4 @@ social:
 404-img: "img/labtocat.png"
 
 # Exclusion list from the generated _site
-exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor", "start_devserver.bat"]
